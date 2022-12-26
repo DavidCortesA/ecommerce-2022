@@ -13,7 +13,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path='/ecommerce-2022' element={<Home />}/>
-        <Route path='/product/:id' element={<ProductDetails />}/>
+        <Route path='/ecommerce-2022/product/:id' element={<ProductDetails />}/>
       </Routes>
       <Sidebar />
       <Footer />
