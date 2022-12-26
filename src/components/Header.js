@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className={`${isActive? 'bg-white py-4 shadow-md' : 'bg-none py-6'} fixed w-full z-10 transition-all`}>
       <div className='container flex mx-auto items-center justify-between h-full'>
-        <Link to={'/'}>
+        <Link to={'/ecommerce-2022'}>
           <div>
             <img className='w-[40px]' src={Logo} alt='Logo'/>
           </div>
