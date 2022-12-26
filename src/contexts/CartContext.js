@@ -13,7 +13,7 @@ const CartProvider = ({ children }) => {
       return accomulator + currentItem.price * currentItem.amount;
     }, 0);
     setTotal(total);
-  });
+  },[cart]);
 
   useEffect(()=>{
     if(cart){
